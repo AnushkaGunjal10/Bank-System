@@ -4,10 +4,10 @@ from mysql.connector import pooling
 
 # Connection Pooling
 db_config = {
-    "host": "localhost",
-    "user": "root",
-    "password": "Welcome@2020",
-    "database": "banking_system",
+    "host": "host",
+    "user": "USER",
+    "password": "PASSWORD",
+    "database": "DATABASE_NAME",
     "pool_name": "mypool",
     "pool_size": 5
 }
